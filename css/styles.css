@@ -422,9 +422,12 @@ footer {
 }
 .poster {
     width: 370px;
+
 } 
 .poster img{
     display: block;
+    width: 100%;
+    height: auto;
 }
 
 .poster-content {  
