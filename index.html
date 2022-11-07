@@ -13,12 +13,12 @@
 </head>
 <body>
     <!-- шапка сайту -->
-    <header>
+    <header class="header">
         <div class="container main-nav">
         <nav class="main-nav">
                 <a class="logo" href="./index.html" lang="en"><span class="logo-accent">Web</span>Studio</a>
                 <ul class="site-nav list">
-                    <li class="item"><a class="link" href="./index.html">Студія</a></li>
+                    <li class="item"><a class="link current" href="./index.html">Студія</a></li>
                     <li class="item"><a class="link" href="./portfolio.html">Портфоліо</a></li>
                     <li class="item"><a class="link" href="#">Контакти</a></li>
                 </ul>
@@ -38,7 +38,7 @@
         <!-- перша секция - HERO -->
     <section class="hero">
     <div class="container">
-        <h1 class="hero-title">Ефективні рішення для <br> вашого бізнесу</h1>
+        <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
         <button type="button" class="hero-btn">Замовити послугу</button>
     </div>
     </section>
@@ -92,24 +92,32 @@
            <h2 class="title stuff">Наша команда</h2>
             <ul class="list stuff">
                 <li class="stuff-item">
-                    <img src="./images/Demyanenko.jpg" alt="Фото Ігоря Дем'яненко" width="270" class="stuff-img">
-                    <h3 class="stuff-name">Ігор Дем'яненко</h3>
-                    <p class="stuff-position" lang="en">Product Designer</p>
+                    <img src="./images/Demyanenko.jpg" alt="Фото Ігоря Дем'яненко" width="270">
+                    <div class="team-box">
+                        <h3 class="stuff-name">Ігор Дем'яненко</h3>
+                        <p class="stuff-position" lang="en">Product Designer</p>                        
+                    </div>
                 </li>
                 <li class="stuff-item">
-                    <img src="./images/Repina.jpg" alt="Фото Ольги Рєпіної" width="270" class="stuff-img">
-                    <h3 class="stuff-name">Ольга Рєпіна</h3>
-                    <p class="stuff-position" lang="en">Frontend Developer</p>
+                    <img src="./images/Repina.jpg" alt="Фото Ольги Рєпіної" width="270">
+                    <div class="team-box">
+                        <h3 class="stuff-name">Ольга Рєпіна</h3>
+                        <p class="stuff-position" lang="en">Frontend Developer</p>                        
+                    </div>
                 </li>
                 <li class="stuff-item">
-                    <img src="./images/Tarasov.jpg" alt="Фото Миколи Тарасова" width="270" class="stuff-img">
-                    <h3 class="stuff-name">Микола Тарасов</h3>
-                    <p class="stuff-position" lang="en">Marketing</p>
+                    <img src="./images/Tarasov.jpg" alt="Фото Миколи Тарасова" width="270">
+                    <div class="team-box">
+                        <h3 class="stuff-name">Микола Тарасов</h3>
+                        <p class="stuff-position" lang="en">Marketing</p>
+                    </div>
                 </li>
                 <li class="stuff-item">
-                    <img src="./images/Ermakov.jpg" alt="фото Михайла Єрмакова" width="270" class="stuff-img">
-                    <h3 class="stuff-name">Михайло Єрмаков</h3>
-                    <p class="stuff-position" lang="en">UI Designer</p>
+                    <img src="./images/Ermakov.jpg" alt="фото Михайла Єрмакова" width="270">
+                    <div class="team-box">
+                        <h3 class="stuff-name">Михайло Єрмаков</h3>
+                        <p class="stuff-position" lang="en">UI Designer</p>
+                    </div>
                 </li>
             </ul>
         </div>
@@ -121,7 +129,7 @@
     <div class="container">
         <a class="footer-logo" href="./index.html" lang="en"><span class="footer-accent">Web</span>Studio</a>
         <address class="footer-address">
-            <ul class="footer list">
+            <ul class="list">
                 <li class="address"><a class="address-link" href="https://goo.gl/maps/dvsHGnvY2BBrPFE57" target="_blank" rel="noopener norefferer nofollw">м.
                         Київ, пр-т Лесі Українки, 26</a></li>
                 <li class="address"><a class="mail-link" href="mailto:info@devstudio.com" lang="en">info@devstudio.com</a></li>
